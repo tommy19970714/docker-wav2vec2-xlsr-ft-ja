@@ -21,7 +21,7 @@ if __name__ == "__main__":
     #wav2vec2_model_dir = os.path.join(models_root_dir, wav2vec2_model_name)
 
     print ("\n\nTraining KenLM language model...")    
-    lm_model_dir = train_kenlm.train(models_root_dir, kenlm_model_name, "unshuffled_deduplicated_cy")
+    lm_model_dir = train_kenlm.train(models_root_dir, kenlm_model_name, "unshuffled_deduplicated_ja")
     #lm_model_dir = os.path.join(models_root_dir, kenlm_model_name)
 
     print ("\n\nOptimizing KenLM language model...")
